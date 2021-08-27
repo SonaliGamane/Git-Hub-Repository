@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitenew1" parallel="classes">
+  <test thread-count="5" name="Testnew1" parallel="classes">
+    <classes>
+      <class name="javapackage1.packagejava"/>
+    </classes>
+  </test> <!-- Testnew1 -->
+</suite> <!-- Suitenew1 -->
