@@ -22,7 +22,7 @@ public class packagejava {
 			wd.findElement(By.id("idSIButton9")).click();
 			System.out.println("Username Entered");
 					
-			wd.findElement(By.cssSelector("input[type='password']")).sendKeys("Shree@123");
+			wd.findElement(By.cssSelector("input[type='password']")).sendKeys("**");
 			wd.findElement(By.xpath(
 						"/html/body/div/form[1]/div/div/div[2]/div[1]/div/div/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div/div/input"))
 						.click();
